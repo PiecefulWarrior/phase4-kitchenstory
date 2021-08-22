@@ -1,4 +1,4 @@
-package com.simplilearn.sportyshoes.models;
+package com.simplilearn.kitchenStoryFoods.models;
 
 
 import lombok.AllArgsConstructor;

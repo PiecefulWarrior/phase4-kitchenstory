@@ -1,4 +1,4 @@
-package com.simplilearn.sportyshoes.models;
+package com.simplilearn.kitchenStoryFoods.models;
 
 
 import lombok.AllArgsConstructor;
@@ -8,27 +8,31 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 @Entity
-public class Users {
+public class Purchase {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
     @Column
-    String firstName;
+    String name;
 
     @Column
-    String lastName;
+    String product;
 
     @Column
-    String email;
+    double price;
 
     @Column
-    String password;
+    int quantity;
+
+
+
 
 }

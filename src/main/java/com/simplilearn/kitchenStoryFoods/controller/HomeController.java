@@ -1,12 +1,10 @@
-package com.simplilearn.sportyshoes.controller;
+package com.simplilearn.kitchenStoryFoods.controller;
 
 
-import com.simplilearn.sportyshoes.models.Products;
-import com.simplilearn.sportyshoes.models.Users;
-import com.simplilearn.sportyshoes.service.ProductService;
-import com.simplilearn.sportyshoes.service.UserService;
+import com.simplilearn.kitchenStoryFoods.models.Users;
+import com.simplilearn.kitchenStoryFoods.service.ProductService;
+import com.simplilearn.kitchenStoryFoods.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jmx.export.annotation.ManagedOperation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;

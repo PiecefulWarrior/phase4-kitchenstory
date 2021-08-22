@@ -1,6 +1,6 @@
-package com.simplilearn.sportyshoes.repository;
+package com.simplilearn.kitchenStoryFoods.repository;
 
-import com.simplilearn.sportyshoes.models.Products;
+import com.simplilearn.kitchenStoryFoods.models.Products;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

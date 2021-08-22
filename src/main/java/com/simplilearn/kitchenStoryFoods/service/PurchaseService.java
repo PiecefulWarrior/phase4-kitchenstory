@@ -1,8 +1,8 @@
-package com.simplilearn.sportyshoes.service;
+package com.simplilearn.kitchenStoryFoods.service;
 
 
-import com.simplilearn.sportyshoes.models.Purchase;
-import com.simplilearn.sportyshoes.repository.PurchaseRepository;
+import com.simplilearn.kitchenStoryFoods.models.Purchase;
+import com.simplilearn.kitchenStoryFoods.repository.PurchaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

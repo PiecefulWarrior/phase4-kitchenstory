@@ -1,13 +1,13 @@
-package com.simplilearn.sportyshoes;
+package com.simplilearn.kitchenStoryFoods;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SportyshoesApplication {
+public class KitchenStoryFoodsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SportyshoesApplication.class, args);
+		SpringApplication.run(KitchenStoryFoodsApplication.class, args);
 	}
 
 }
